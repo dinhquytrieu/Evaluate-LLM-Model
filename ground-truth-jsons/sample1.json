@@ -1,0 +1,8 @@
+{
+  "image_filename": "sample1.png",
+  "annotations": [
+    { "x": 100, "y": 50, "width": 120, "height": 40, "tag": "Button" },
+    { "x": 250, "y": 100, "width": 180, "height": 30, "tag": "Input" },
+    { "x": 50, "y": 200, "width": 20, "height": 20, "tag": "Radio" }
+  ]
+} 
