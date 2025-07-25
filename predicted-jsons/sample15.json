@@ -1,0 +1,46 @@
+{
+  "annotations": [
+    {
+      "x": 345,
+      "y": 229,
+      "width": 82,
+      "height": 64,
+      "tag": "Button"
+    },
+    {
+      "x": 98,
+      "y": 73,
+      "width": 99,
+      "height": 75,
+      "tag": "Radio"
+    },
+    {
+      "x": 126,
+      "y": 39,
+      "width": 46,
+      "height": 43,
+      "tag": "Input"
+    },
+    {
+      "x": 78,
+      "y": 396,
+      "width": 95,
+      "height": 77,
+      "tag": "Radio"
+    },
+    {
+      "x": 306,
+      "y": 195,
+      "width": 39,
+      "height": 28,
+      "tag": "Radio"
+    },
+    {
+      "x": 250,
+      "y": 229,
+      "width": 119,
+      "height": 47,
+      "tag": "Radio"
+    }
+  ]
+}

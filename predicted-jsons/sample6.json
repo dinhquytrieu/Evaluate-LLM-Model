@@ -1,0 +1,18 @@
+{
+  "annotations": [
+    {
+      "x": 202,
+      "y": 320,
+      "width": 47,
+      "height": 54,
+      "tag": "Button"
+    },
+    {
+      "x": 354,
+      "y": 12,
+      "width": 60,
+      "height": 79,
+      "tag": "Button"
+    }
+  ]
+}

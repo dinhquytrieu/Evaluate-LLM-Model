@@ -1,0 +1,46 @@
+{
+  "annotations": [
+    {
+      "x": 219,
+      "y": 7,
+      "width": 71,
+      "height": 52,
+      "tag": "Input"
+    },
+    {
+      "x": 164,
+      "y": 369,
+      "width": 83,
+      "height": 40,
+      "tag": "Input"
+    },
+    {
+      "x": 124,
+      "y": 371,
+      "width": 93,
+      "height": 72,
+      "tag": "Dropdown"
+    },
+    {
+      "x": 74,
+      "y": 130,
+      "width": 77,
+      "height": 46,
+      "tag": "Button"
+    },
+    {
+      "x": 305,
+      "y": 40,
+      "width": 46,
+      "height": 54,
+      "tag": "Button"
+    },
+    {
+      "x": 76,
+      "y": 73,
+      "width": 100,
+      "height": 45,
+      "tag": "Dropdown"
+    }
+  ]
+}

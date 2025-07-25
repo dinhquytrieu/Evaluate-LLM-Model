@@ -1,0 +1,32 @@
+{
+  "annotations": [
+    {
+      "x": 12,
+      "y": 394,
+      "width": 118,
+      "height": 47,
+      "tag": "Dropdown"
+    },
+    {
+      "x": 203,
+      "y": 226,
+      "width": 115,
+      "height": 77,
+      "tag": "Button"
+    },
+    {
+      "x": 87,
+      "y": 356,
+      "width": 112,
+      "height": 76,
+      "tag": "Input"
+    },
+    {
+      "x": 59,
+      "y": 239,
+      "width": 44,
+      "height": 79,
+      "tag": "Radio"
+    }
+  ]
+}

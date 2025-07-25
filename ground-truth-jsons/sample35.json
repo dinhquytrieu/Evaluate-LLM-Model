@@ -1,0 +1,46 @@
+{
+  "annotations": [
+    {
+      "x": 278,
+      "y": 251,
+      "width": 43,
+      "height": 63,
+      "tag": "Input"
+    },
+    {
+      "x": 193,
+      "y": 127,
+      "width": 73,
+      "height": 24,
+      "tag": "Input"
+    },
+    {
+      "x": 270,
+      "y": 21,
+      "width": 58,
+      "height": 54,
+      "tag": "Input"
+    },
+    {
+      "x": 269,
+      "y": 246,
+      "width": 76,
+      "height": 50,
+      "tag": "Radio"
+    },
+    {
+      "x": 278,
+      "y": 49,
+      "width": 71,
+      "height": 22,
+      "tag": "Input"
+    },
+    {
+      "x": 179,
+      "y": 283,
+      "width": 43,
+      "height": 30,
+      "tag": "Input"
+    }
+  ]
+}

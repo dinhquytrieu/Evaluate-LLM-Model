@@ -1,8 +1,39 @@
 {
-  "image_filename": "sample1.png",
   "annotations": [
-    { "x": 95, "y": 45, "width": 125, "height": 45, "tag": "Button" },
-    { "x": 245, "y": 95, "width": 185, "height": 35, "tag": "Input" },
-    { "x": 300, "y": 300, "width": 100, "height": 25, "tag": "Dropdown" }
+    {
+      "x": 327,
+      "y": 86,
+      "width": 88,
+      "height": 58,
+      "tag": "Dropdown"
+    },
+    {
+      "x": 106,
+      "y": 294,
+      "width": 113,
+      "height": 67,
+      "tag": "Button"
+    },
+    {
+      "x": 151,
+      "y": 378,
+      "width": 35,
+      "height": 66,
+      "tag": "Dropdown"
+    },
+    {
+      "x": 316,
+      "y": 65,
+      "width": 93,
+      "height": 40,
+      "tag": "Dropdown"
+    },
+    {
+      "x": 6,
+      "y": 13,
+      "width": 30,
+      "height": 47,
+      "tag": "Radio"
+    }
   ]
-} 
+}

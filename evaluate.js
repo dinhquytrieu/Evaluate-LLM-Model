@@ -91,13 +91,53 @@ function evaluate(truthDir, predDir) {
   macro.precision /= TAGS.length;
   macro.recall /= TAGS.length;
   macro.f1 /= TAGS.length;
-  // Output
-  console.log('Class\tPrecision\tRecall\tF1');
-  for (const tag of TAGS) {
-    const { precision, recall, f1 } = perClass[tag];
-    console.log(`${tag}\t${precision.toFixed(3)}\t${recall.toFixed(3)}\t${f1.toFixed(3)}`);
+  // Output (improved formatting)
+  const col1 = 10, col2 = 10, col3 = 10, col4 = 12, col5 = 12, col6 = 12;
+  function pad(str, len, right = false) {
+    str = String(str);
+    if (right) return str.padEnd(len, ' ');
+    return str.padStart(len, ' ');
   }
-  console.log(`Macro\t${macro.precision.toFixed(3)}\t${macro.recall.toFixed(3)}\t${macro.f1.toFixed(3)}`);
+  const header =
+    pad('Class', col1, true) +
+    pad('GT', col2) +
+    pad('TP', col3) +
+    pad('Precision', col4) +
+    pad('Recall', col5) +
+    pad('F1', col6);
+  const sep = '-'.repeat(col1 + col2 + col3 + col4 + col5 + col6);
+  console.log(header);
+  console.log(sep);
+  for (const tag of TAGS) {
+    let totalGT = 0;
+    let totalTP = 0;
+    for (const file of Object.keys(truths)) {
+      const gt = truths[file].filter(a => a.tag === tag);
+      const pd = preds[file] || [];
+      const { tp } = matchBoxes(pd, gt, tag);
+      totalGT += gt.length;
+      totalTP += tp;
+    }
+    const { precision, recall, f1 } = perClass[tag];
+    console.log(
+      pad(tag, col1, true) +
+      pad(totalGT, col2) +
+      pad(totalTP, col3) +
+      pad(precision.toFixed(3), col4) +
+      pad(recall.toFixed(3), col5) +
+      pad(f1.toFixed(3), col6)
+    );
+  }
+  console.log(sep);
+  // Macro row: GT and TP are not meaningful as averages, so leave blank
+  console.log(
+    pad('Macro', col1, true) +
+    pad('', col2) +
+    pad('', col3) +
+    pad(macro.precision.toFixed(3), col4) +
+    pad(macro.recall.toFixed(3), col5) +
+    pad(macro.f1.toFixed(3), col6)
+  );
 }
 
 const opts = parseArgs();

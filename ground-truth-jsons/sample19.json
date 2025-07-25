@@ -1,0 +1,18 @@
+{
+  "annotations": [
+    {
+      "x": 295,
+      "y": 375,
+      "width": 77,
+      "height": 35,
+      "tag": "Radio"
+    },
+    {
+      "x": 255,
+      "y": 318,
+      "width": 104,
+      "height": 63,
+      "tag": "Radio"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "annotations": [
+    {
+      "x": 93,
+      "y": 39,
+      "width": 66,
+      "height": 43,
+      "tag": "Dropdown"
+    },
+    {
+      "x": 4,
+      "y": 291,
+      "width": 77,
+      "height": 79,
+      "tag": "Dropdown"
+    },
+    {
+      "x": 305,
+      "y": 246,
+      "width": 111,
+      "height": 35,
+      "tag": "Button"
+    },
+    {
+      "x": 349,
+      "y": 171,
+      "width": 77,
+      "height": 56,
+      "tag": "Dropdown"
+    },
+    {
+      "x": 292,
+      "y": 85,
+      "width": 75,
+      "height": 80,
+      "tag": "Dropdown"
+    },
+    {
+      "x": 298,
+      "y": 191,
+      "width": 56,
+      "height": 67,
+      "tag": "Radio"
+    }
+  ]
+}
